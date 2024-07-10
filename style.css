@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*------header style start-----*/
+span{
+    color: blue;
+}
+.hero-section1{
+    background-color: rgb(206, 206, 253);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 300px;
+}
+.hero-section1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+}
+.hero-section1 button{
+    background-color: rgb(71, 71, 254);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+}
+.hero-section1 a:hover{
+    text-decoration: underline;
+    color: rgb(71, 71, 254);
+}
+.hero-section1 button:hover{
+    border: 2px solid black;
+}
+.hero-section2{
+    width: 100%;
+    height: 522px;
+    background-image: url(developer-removebg-preview.png), url(Hero-bg.png),url(header_bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 5%, 95%, 50%;
+    background-position: left center, right center, right bottom;  
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section2 img{
+    margin-right: 30px;
+}
+.hero-section2 .hero-main-text{
+    margin-left: 150px;
+    margin-top: 150px;
+}
+.hero-section2 .hero-main-text h2{
+    color: rgb(74, 73, 73);
+}
+.hero-section2 .hero-main-text h1{
+    font-size: 70px;
+    color: rgb(71, 71, 254);
+}
+.hero-section2 .hero-main-text .button1{
+    background-color: rgb(71, 71, 254);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bold;
+}
+.hero-section2 .hero-main-text .button2{
+    border-color: rgb(71, 71, 254);
+    border-radius: 5px;
+    color: rgb(71, 71, 254);
+    padding: 8px 25px;
+    font-weight: bold;
+}
+.hero-section2 .hero-main-text p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    padding-bottom: 15px;
+}
+.hero-section2 .hero-main-text .button1:hover{
+    border: 2px solid rgb(71, 71, 254);
+    background-color: white;
+    color: rgb(71, 71, 254);
+}
+.hero-section2 .hero-main-text .button2:hover{
+    background-color: rgb(71, 71, 254);
+    color: white;
+}
+/*----header style end----*/
+
+
+/*----main style start----*/
+#main-section{
+    width: 1000px;
+    height: 1200px;
+    margin: 0px auto;
+    margin-top: 60px;
+    background-color: rgb(248, 243, 243);
+    border-radius: 10px;
+}
+
+/*section1 style start*/
+#main-section .section1{
+    text-align: center;
+    padding-top:50px;
+    
+}
+#main-section .section1 p{
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+    margin-top: 20px;
+}
+/*section1 style end*/
+
+/*section2 style start*/
+#main-section .section2{
+    width: 800px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 100px;
+    background-image: linear-gradient(to right,white,rgb(248, 243, 243));
+}
+#main-section .section2 .style{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#main-section .section2 .style .margin{
+    margin-top: 65px;
+}
+#main-section .section2 .style .margin p{
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+#main-section .section2 .style .margin button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 20px;
+}
+#main-section .section2 .style .margin button:hover{
+    background-color: rgb(71, 71, 254);
+    border: none;
+    color: white;
+}
+/*section2 style end*/
+
+/*section3 style start*/
+#main-section .section3{
+    width: 800px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,rgb(248, 243, 243), white);
+}
+#main-section .section3 .style{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#main-section .section3 .style .margin{
+    margin-top: 65px;
+}
+#main-section .section3 .style .margin p{
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+#main-section .section3 .style .margin button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 20px;
+}
+#main-section .section3 .style .margin button:hover{
+    background-color: rgb(71, 71, 254);
+    border: none;
+    color: white;
+}
+/*section3 style end*/
+
+/*section4 style start*/
+#main-section .section4{
+    width: 800px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,white,rgb(248, 243, 243));
+}
+#main-section .section4 .style{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+#main-section .section4 .style .margin{
+    margin-top: 65px;
+}
+#main-section .section4 .style .margin p{
+    color: rgb(74, 73, 73);
+    font-weight: bold;
+}
+#main-section .section4 .style .margin button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 20px;
+}
+#main-section .section4 .style .margin button:hover{
+    background-color: rgb(71, 71, 254);
+    border: none;
+    color: white;
+}
+/*section4 style end*/
+
+/*section mid start*/
+#section-mid{
+    width: 1000px;
+    height: 500px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+#section-mid .align{
+    text-align: center;
+}
+#section-mid .align p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 15px;
+}
+#section-mid .margin{
+    margin-top: 100px;
+}
+/*section mid end*/
+
+/*section last start*/
+#section-last{
+    width: 1000px;
+    height: 1280px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+/*my current section start*/
+#section-last .align-text{
+    text-align: center;
+}
+/*my current section end*/
+
+/*html,css,javascript start*/
+#section-last .align-text p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 20px;
+}
+#section-last .three-coding-side{
+    width: 1000px;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#section-last .three-coding-side .html{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(217, 250, 250);
+    border-radius: 10px;
+}
+#section-last .three-coding-side .css{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(225, 225, 253);
+    border-radius: 10px;
+}
+#section-last .three-coding-side .js{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(252, 234, 236);
+    border-radius: 10px;
+}
+
+#section-last .three-coding-side .html .margin{
+    margin: 40px 0px 0px 30px;
+}
+#section-last .three-coding-side .css .margin{
+    margin: 40px 0px 0px 30px;
+}
+#section-last .three-coding-side .js .margin{
+    margin: 40px 0px 0px 30px;
+}
+
+#section-last .three-coding-side .html .margin h2{
+    margin-top: 10px;
+}
+#section-last .three-coding-side .css .margin h2{
+    margin-top: 10px;
+}
+#section-last .three-coding-side .js .margin h2{
+    margin-top: 10px;
+}
+
+#section-last .three-coding-side .html .margin p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+#section-last .three-coding-side .css .margin p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+#section-last .three-coding-side .js .margin p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+
+
+#section-last .three-coding-side .html .margin a{
+    font-weight: bold;
+}
+#section-last .three-coding-side .css .margin a{
+    font-weight: bold;
+}
+#section-last .three-coding-side .js .margin a{
+    font-weight: bold;
+}
+
+
+#section-last .three-coding-side .html .margin a:hover{
+    color: blue;
+}
+#section-last .three-coding-side .css .margin a:hover{
+    color: blue;
+}
+#section-last .three-coding-side .js .margin a:hover{
+    color: blue;
+}
+/*html,css,javascript end*/
+
+.M-N-T{
+    text-align: center;
+    margin-top: 100px;
+}
+.M-N-T p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin-top: 20px;
+}
+
+/*reacetjs,nodejs,mongodb style start*/
+.reactjs{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(251, 251, 224);
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.nodejs{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(227, 249, 249);
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mongodb{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(228, 255, 233);
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.reactjs img{
+    margin: 50px;
+}
+.nodejs img{
+    margin: 50px;
+}
+.mongodb img{
+    margin: 50px;
+}
+
+
+.reactjs p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+.nodejs p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+.mongodb p{
+    font-weight: bold;
+    color: rgb(74, 73, 73);
+    margin: 10px 0px;
+}
+
+
+.reactjs a{
+    font-weight: bold;
+}
+.nodejs a{
+    font-weight: bold;
+}
+.mongodb a{
+    font-weight: bold;
+}
+
+.reactjs a:hover{
+    color: blue;
+}
+.nodejs a:hover{
+    color: blue;
+}
+.mongodb a:hover{
+    color: blue;
+}
+
+.reactjs .margin{
+    margin-top: 20px;
+}
+.nodejs .margin{
+    margin-top: 20px;
+}
+.mongodb .margin{
+    margin-top: 20px;
+}
+/*reacetjs,nodejs,mongodb style end*/
+
+/*footer section start*/
+#footer-section{
+    width: 1000px;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 150px;
+    background-image: url(handshake.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(0,0,0,0.5);
+    background-blend-mode: overlay;
+    border-radius: 10px;
+}
+
+
+#footer-section .footer-text{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+#footer-section .footer-text p{
+    font-weight: bold;
+    color: rgb(203, 198, 198);
+    margin-top: 10px;
+}
+
+
+#footer-section .footer-textsection-and-button input{
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#footer-section .footer-textsection-and-button .placeholder{
+    padding-right: 150px;
+}
+#footer-section .footer-textsection-and-button{
+    margin-left: 295px;
+}
+#footer-section .footer-icon{
+    text-align: center;
+    padding-TOP: 30PX;
+}
+
